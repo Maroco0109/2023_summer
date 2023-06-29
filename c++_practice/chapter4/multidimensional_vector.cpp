@@ -14,12 +14,7 @@ double Circle::getArea(){
 }
 
 int main(){
-    std::vector<std::vector<Circle>> circles;
-    std::vector<Circle> tmp_circles;
-    circles.emplace_back(tmp_circles);
-    circles[0].emplace_back(1);
-
-    /*
+    Circle circles[2][3];
     circles[0][0] = 1;
     circles[0][1] = 2;
     circles[0][2] = 3;
@@ -33,5 +28,4 @@ int main(){
             std::cout<<circles[i][j].getArea()<<'\n';
         }
     }
-    */
 }
